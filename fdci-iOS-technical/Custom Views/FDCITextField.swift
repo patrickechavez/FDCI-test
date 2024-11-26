@@ -9,12 +9,40 @@ import UIKit
 
 class FDCITextField: UITextField {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        configure()
     }
-    */
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    init(placeholder: String) {
+        super.init(frame: .zero)
+        self.placeholder = placeholder
+        configure()
+    }
+    
+    private func configure() {
+        translatesAutoresizingMaskIntoConstraints = false
+        
+        layer.cornerRadius          = 10
+        layer.borderWidth           = 2
+        layer.borderColor           = UIColor.systemGray4.cgColor
+        
+        textColor                   = .label
+        tintColor                   = .label
+        textAlignment               = .left
+        font                        = UIFont.preferredFont(forTextStyle: .title2)
+        adjustsFontSizeToFitWidth   = true
+        minimumFontSize             = 12
+        autocapitalizationType      = .none
+
+        backgroundColor             = .tertiarySystemBackground
+        autocorrectionType          = .no
+        returnKeyType               = .go
+        clearButtonMode             = .whileEditing
+    }
 
 }

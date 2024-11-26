@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		2D9195C42CF5A8FB0063139C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195C32CF5A8FB0063139C /* AppDelegate.swift */; };
 		2D9195C62CF5A8FB0063139C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195C52CF5A8FB0063139C /* SceneDelegate.swift */; };
-		2D9195C82CF5A8FB0063139C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195C72CF5A8FB0063139C /* ViewController.swift */; };
-		2D9195CB2CF5A8FB0063139C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2D9195CA2CF5A8FB0063139C /* Base */; };
 		2D9195CD2CF5A8FC0063139C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9195CC2CF5A8FC0063139C /* Assets.xcassets */; };
 		2D9195D02CF5A8FC0063139C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2D9195CF2CF5A8FC0063139C /* Base */; };
+		2D9195D82CF5A94F0063139C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195D72CF5A94F0063139C /* FirstViewController.swift */; };
+		2D9195DA2CF5A9B80063139C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195D92CF5A9B80063139C /* SecondViewController.swift */; };
+		2D9195DD2CF5AA490063139C /* FDCITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195DC2CF5AA490063139C /* FDCITextField.swift */; };
+		2D9195DF2CF5ACF70063139C /* FDCIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195DE2CF5ACF70063139C /* FDCIButton.swift */; };
+		2D9195E42CF5B1DB0063139C /* FDCITitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195E32CF5B1DB0063139C /* FDCITitleLabel.swift */; };
+		2D9195E72CF5B1FA0063139C /* FDCIBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195E62CF5B1FA0063139C /* FDCIBodyLabel.swift */; };
+		2D9195EA2CF5B3790063139C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195E92CF5B3790063139C /* NetworkManager.swift */; };
+		2D9195ED2CF5B4790063139C /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195EC2CF5B4790063139C /* Country.swift */; };
+		2D9195F02CF5B4C80063139C /* FDCIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195EF2CF5B4C80063139C /* FDCIError.swift */; };
+		2D9195F22CF5B7160063139C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195F12CF5B7160063139C /* DataManager.swift */; };
+		2D9195F42CF5C2C10063139C /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9195F32CF5C2C10063139C /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D9195C02CF5A8FB0063139C /* fdci-iOS-technical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fdci-iOS-technical.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9195C32CF5A8FB0063139C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D9195C52CF5A8FB0063139C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D9195C72CF5A8FB0063139C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2D9195CA2CF5A8FB0063139C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D9195CC2CF5A8FC0063139C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D9195CF2CF5A8FC0063139C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D9195D12CF5A8FC0063139C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D9195D72CF5A94F0063139C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2D9195D92CF5A9B80063139C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2D9195DC2CF5AA490063139C /* FDCITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDCITextField.swift; sourceTree = "<group>"; };
+		2D9195DE2CF5ACF70063139C /* FDCIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDCIButton.swift; sourceTree = "<group>"; };
+		2D9195E32CF5B1DB0063139C /* FDCITitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDCITitleLabel.swift; sourceTree = "<group>"; };
+		2D9195E62CF5B1FA0063139C /* FDCIBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDCIBodyLabel.swift; sourceTree = "<group>"; };
+		2D9195E92CF5B3790063139C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2D9195EC2CF5B4790063139C /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		2D9195EF2CF5B4C80063139C /* FDCIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDCIError.swift; sourceTree = "<group>"; };
+		2D9195F12CF5B7160063139C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		2D9195F32CF5C2C10063139C /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,88 @@
 		2D9195C22CF5A8FB0063139C /* fdci-iOS-technical */ = {
 			isa = PBXGroup;
 			children = (
+				2D9195F52CF5C2C90063139C /* Extensions */,
+				2D9195EE2CF5B4B80063139C /* Utilities */,
+				2D9195EB2CF5B3CB0063139C /* Model */,
+				2D9195E82CF5B36E0063139C /* Managers */,
+				2D9195E22CF5ADD00063139C /* Screens */,
+				2D9195E12CF5ADC10063139C /* Support */,
+				2D9195DB2CF5AA1E0063139C /* Custom Views */,
+			);
+			path = "fdci-iOS-technical";
+			sourceTree = "<group>";
+		};
+		2D9195DB2CF5AA1E0063139C /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D9195E52CF5B1E80063139C /* Labels */,
+				2D9195DC2CF5AA490063139C /* FDCITextField.swift */,
+				2D9195DE2CF5ACF70063139C /* FDCIButton.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		2D9195E12CF5ADC10063139C /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				2D9195C32CF5A8FB0063139C /* AppDelegate.swift */,
 				2D9195C52CF5A8FB0063139C /* SceneDelegate.swift */,
-				2D9195C72CF5A8FB0063139C /* ViewController.swift */,
-				2D9195C92CF5A8FB0063139C /* Main.storyboard */,
 				2D9195CC2CF5A8FC0063139C /* Assets.xcassets */,
 				2D9195CE2CF5A8FC0063139C /* LaunchScreen.storyboard */,
 				2D9195D12CF5A8FC0063139C /* Info.plist */,
 			);
-			path = "fdci-iOS-technical";
+			name = Support;
+			sourceTree = "<group>";
+		};
+		2D9195E22CF5ADD00063139C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2D9195D72CF5A94F0063139C /* FirstViewController.swift */,
+				2D9195D92CF5A9B80063139C /* SecondViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2D9195E52CF5B1E80063139C /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				2D9195E32CF5B1DB0063139C /* FDCITitleLabel.swift */,
+				2D9195E62CF5B1FA0063139C /* FDCIBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		2D9195E82CF5B36E0063139C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2D9195E92CF5B3790063139C /* NetworkManager.swift */,
+				2D9195F12CF5B7160063139C /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2D9195EB2CF5B3CB0063139C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D9195EC2CF5B4790063139C /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D9195EE2CF5B4B80063139C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2D9195EF2CF5B4C80063139C /* FDCIError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2D9195F52CF5C2C90063139C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2D9195F32CF5C2C10063139C /* String+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +218,6 @@
 			files = (
 				2D9195CD2CF5A8FC0063139C /* Assets.xcassets in Resources */,
 				2D9195D02CF5A8FC0063139C /* Base in Resources */,
-				2D9195CB2CF5A8FB0063139C /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +228,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D9195C82CF5A8FB0063139C /* ViewController.swift in Sources */,
+				2D9195EA2CF5B3790063139C /* NetworkManager.swift in Sources */,
+				2D9195F22CF5B7160063139C /* DataManager.swift in Sources */,
+				2D9195DA2CF5A9B80063139C /* SecondViewController.swift in Sources */,
+				2D9195F42CF5C2C10063139C /* String+Ext.swift in Sources */,
+				2D9195E42CF5B1DB0063139C /* FDCITitleLabel.swift in Sources */,
+				2D9195E72CF5B1FA0063139C /* FDCIBodyLabel.swift in Sources */,
+				2D9195F02CF5B4C80063139C /* FDCIError.swift in Sources */,
+				2D9195D82CF5A94F0063139C /* FirstViewController.swift in Sources */,
 				2D9195C42CF5A8FB0063139C /* AppDelegate.swift in Sources */,
+				2D9195DF2CF5ACF70063139C /* FDCIButton.swift in Sources */,
 				2D9195C62CF5A8FB0063139C /* SceneDelegate.swift in Sources */,
+				2D9195ED2CF5B4790063139C /* Country.swift in Sources */,
+				2D9195DD2CF5AA490063139C /* FDCITextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2D9195C92CF5A8FB0063139C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D9195CA2CF5A8FB0063139C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2D9195CE2CF5A8FC0063139C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +389,6 @@
 				INFOPLIST_FILE = "fdci-iOS-technical/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +416,6 @@
 				INFOPLIST_FILE = "fdci-iOS-technical/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

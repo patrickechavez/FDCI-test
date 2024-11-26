@@ -9,12 +9,28 @@ import UIKit
 
 class FDCIBodyLabel: UILabel {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override init(frame: CGRect) {
+        super.init(frame: frame)
     }
-    */
-
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    init(textColor: UIColor, isHidden: Bool) {
+        super.init(frame: .zero)
+        self.textColor = textColor
+        self.isHidden = isHidden
+        configure()
+    }
+    
+    private func configure() {
+        font                                = UIFont.preferredFont(forTextStyle: .body)
+        adjustsFontForContentSizeCategory   = true
+        adjustsFontSizeToFitWidth           = true
+        minimumScaleFactor                  = 0.75
+        lineBreakMode                       = .byWordWrapping
+        textAlignment                       = .left
+        translatesAutoresizingMaskIntoConstraints = false
+    }
 }
